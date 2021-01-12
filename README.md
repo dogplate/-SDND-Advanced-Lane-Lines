@@ -3,7 +3,9 @@
 ### Project #2 for Udacity Self-Driving Car Nanodegree
 
 The goals / steps of this project are the following:
+
 ![alt text](./examples/12_printed_info_image.png)
+
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
 * Apply a distortion correction to raw images.
 * Use color transforms, gradients, etc., to create a thresholded binary image.
