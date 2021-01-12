@@ -73,9 +73,9 @@ Then add information about lane curvature,lane center difference and bird_eye_vi
 
 
 ### Pipeline (video)
-![alt text](./output_videos/project_video_s.mp4)
+![Link](./output_videos/project_video_s.mp4)
 
-![alt text](./output_videos/challenge_video.mp4)
+![Link](./output_videos/challenge_video.mp4)
 
 ### Discussion
 
