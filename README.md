@@ -34,8 +34,17 @@ Undistortion can be seen from the difference in the shape of car hood
 #### 2. Perspective Transform *(Bird-eye-view)* 
 Warp image by using the OpenCV function ` getPerspectiveTransform ` and `warpPerspective`
 
-![alt text](./examples/5_Warped_image.png)
+Sorce points in the images I used to obtain the perspective 
 
+|src      |dst     |
+|---------|--------|
+| 527, 450|   0,  0|
+| 759, 450|1280,  0|
+|-436, 720|   0,720|
+|1780, 720|1280,720|
+
+
+![alt text](./examples/5_Warped_image.png)
 
 #### 3.  Create thresholded binary image
 I explored several combinations of sobel gradient thresholds and color channel thresholds in multiple color spaces. 
